@@ -24,5 +24,7 @@ Route::get('contact', function () {
 });
 
 Route::post('contact', function () {
-    return view('welcome');
+
+    echo 'Thank for your submission';
+
 });
