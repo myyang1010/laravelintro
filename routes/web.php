@@ -12,19 +12,36 @@
 */
 
 Route::get('/', function () {
-    return view('pages.index');
+
+return view('pages.index');
+
 });
+
+
 
 Route::get('about', function () {
-    return view('pages.about');
+
+return view('pages.about');
+
 });
 
+
+
 Route::get('contact', function () {
-    return view('pages.contact');
+
+return view('pages.contact');
+
 });
+
+
 
 Route::post('contact', function () {
 
-    echo 'Thank for your submission';
+
+
+echo 'Thank for your submission';
+
+
 
 });
+
